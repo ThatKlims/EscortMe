@@ -1,0 +1,76 @@
+.ui.fluid.dropdown {
+    display: block;
+    width: 75%;
+    min-width: 0;
+    position: relative;}
+
+.ui.selection.active.dropdown {
+    border-color: #e6e6e6 !important; }
+.ui.selection.active.dropdown .menu {
+    border-color: #e6e6e6;
+    -webkit-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41); }
+.ui.selection.active.dropdown:hover {
+    border-color: #e6e6e6;
+    -webkit-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41); }
+.ui.selection.active.dropdown:hover .menu {
+    border-color: #e6e6e6;
+    -webkit-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 3px 19px -15px rgba(0, 0, 0, 0.41); }
+
+.ui.selection.dropdown:focus {
+    border-color: #e6e6e6;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.ui.selection.dropdown {
+    padding: 10px;
+    position: relative; }
+
+.ui.selection.dropdown > .dropdown.icon {
+    top: 15px; }
+
+.ui.multiple.dropdown > .label {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.ui.label {
+    background: #e8647c;}
+.ui.label a {
+    opacity: 1;
+    color: #fff;
+    padding: 8px 10px !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border: none !important; }
+@media (prefers-reduced-motion: reduce) {
+    .ui.label a {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+.ui.label a:hover, .ui.label a:focus, .ui.label a.active {
+    background: #e8647c;
+    color: #fff; }
+.ui.label > .delete.icon {
+    opacity: 1; }
+
+.ui.selection.dropdown .menu > .item {
+    border-top: 1px solid #e6e6e6; font-size: 16px;}
+
+.ui.dropdown .menu > .item {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+@media (prefers-reduced-motion: reduce) {
+    .ui.dropdown .menu > .item {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+.ui.dropdown .menu > .item:hover {
+    background: #e8647c;
+    color: #fff; }
